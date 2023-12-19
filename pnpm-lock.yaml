@@ -14,6 +14,9 @@ dependencies:
   '@types/react-dom':
     specifier: 18.2.7
     version: 18.2.7
+  arweave:
+    specifier: ^1.14.4
+    version: 1.14.4
   arweave-wallet-kit:
     specifier: ^1.0.1
     version: 1.0.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
@@ -1292,6 +1295,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -1838,7 +1842,7 @@ packages:
   /arconnect@0.4.2:
     resolution: {integrity: sha512-Jkpd4QL3TVqnd3U683gzXmZUVqBUy17DdJDuL/3D9rkysLgX6ymJ2e+sR+xyZF5Rh42CBqDXWNMmCjBXeP7Gbw==}
     dependencies:
-      arweave: 1.14.1
+      arweave: 1.14.4
     dev: false
 
   /arg@5.0.2:
@@ -1951,7 +1955,7 @@ packages:
       '@linaria/babel-preset': 4.5.4
       '@linaria/core': 4.5.4
       '@linaria/react': 4.5.4(react@18.2.0)
-      arweave: 1.14.1
+      arweave: 1.14.4
       arweave-wallet-connector: 0.0.31(typescript@5.1.6)
       framer-motion: 8.5.5(react-dom@18.2.0)(react@18.2.0)
       othent: 1.0.637
@@ -1963,8 +1967,8 @@ packages:
       - typescript
     dev: false
 
-  /arweave@1.14.1:
-    resolution: {integrity: sha512-oa+qt5FVNUACdJWU0M5d+c6IPJN9DmGIdVeCQ1z0yruBelMZ6KjQRwwridz9FzwEUt3VsZIck/nJk/Jkn07JAw==}
+  /arweave@1.14.4:
+    resolution: {integrity: sha512-tmqU9fug8XAmFETYwgUhLaD3WKav5DaM4p1vgJpEj/Px2ORPPMikwnSySlFymmL2qgRh2ZBcZsg11+RXPPGLsA==}
     engines: {node: '>=16.15.0'}
     dependencies:
       arconnect: 0.4.2
